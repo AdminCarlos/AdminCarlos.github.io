@@ -1,0 +1,26 @@
+#mainMenu {
+
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw 20vw;
+    height: 100vh;
+
+}
+
+.menuItem {
+
+    overflow: hidden;
+
+}
+
+#menuItem1 {
+
+    background-image: url(../resources/images/firstMenuItemImage.jpg);
+    background-position: 85%;
+    
+}
+
+.menuItemImage {
+
+
+} 
+
