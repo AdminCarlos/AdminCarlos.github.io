@@ -2,7 +2,7 @@ $(document).ready(function() {
 
     $.ajax({
         type: "GET",
-        url: "roster.xml",
+        url: "scripts/roster.xml",
         dataType: "xml",
         success: function(xml){
      
