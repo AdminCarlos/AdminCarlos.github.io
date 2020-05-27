@@ -1,0 +1,72 @@
+body {
+
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+
+}
+
+#mainMenu {
+
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw 20vw;
+    width: 100vw;
+    background-color: black;
+
+}
+
+.container {
+
+    display: grid;
+    grid-template-rows: 85vh 15vh;
+    transition: opacity 1s;
+    opacity: 0.5;
+
+}
+
+.container:hover  {
+
+    opacity: 1;
+    
+}
+
+.menuImage {
+
+    background-color: green;
+
+}
+
+#menuImage1 {
+
+    background-image: url(../resources/images/me.jpg);
+    background-position: 63%;
+    background-size: cover;
+
+}
+
+#menuImage2 {
+
+    background-image: url(../resources/images/workme.jpg);
+    background-position: 100%;
+    background-size: cover;
+
+}
+
+.menuText {
+
+    background-color: blueviolet;
+}
+
+.text {
+
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    width: 100%;
+    height: 15vh;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+
+
+

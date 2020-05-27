@@ -8,22 +8,49 @@
     <meta name='author' content='Placeholder'>
     <link rel='stylesheet' href='css/jqueryMobileUI.min.css'>
     <link rel='stylesheet' href='css/customcss.css'>
+
+    <script src="scripts/jquery.js"></script>
+
+    <script>
+        $(document).on('mobileinit', function () {
+            $.mobile.ignoreContentEnabled = true;
+        });
+    </script>
+
+    <script src="scripts/jqueryMobile.js"></script>
+
 </head>
 
-<body>
+<body data-enhance="false">
 
-    <div id="mainMenu">
+    <div id="initialPage">
 
-        <div id="menuItem1" class="menuItem"><p>Me</p></div>
-        <div id="menuItem2" class="menuItem"></div>
-        <div id="menuItem3" class="menuItem"></div>
-        <div id="menuItem4" class="menuItem"></div>
-        <div id="menuItem5" class="menuItem"></div>
+        <div id="containerChooseFighter">
+
+            <span>Choose your fighter</span>
+            <select id="selectFighter" onchange="showSpriteAndValues()">
+
+                <option value="" selected disabled hidden>None</option>
+                <option value="ryu">Ryu</option>
+                <option value="ken">Ken</option>
+                <option value="chunli">Chun Li</option>
+
+            </select>
+
+        </div>
+
+        <div id="containerInfoFighter">
+
+            <img src="images/questionMark.png" id="imgFighter">
+            <span id="fighterNameSpan">Name: ???</span>
+            <span id="fighterHealthSpan">Health: ???</span>
+            <span id="fighterAttackSpan">Attack: ???</span>
+            <span id="fighterDefenseSpan">Defense: ???</span>
+
+        </div>
 
     </div>
 
-    <script src="scripts/jquery.js"></script>
-    <script src="scripts/jqueryMobile.js"></script>
     <script src="scripts/customjs.js"></script>
 
 </body>

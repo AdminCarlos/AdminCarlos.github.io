@@ -1,26 +1,21 @@
-#mainMenu {
+#initialPage {
 
     display: grid;
-    grid-template-columns: 20vw 20vw 20vw 20vw 20vw;
-    height: 100vh;
+    grid-template-columns: 50vw 50vw;
 
 }
 
-.menuItem {
+#containerInfoFighter {
 
-    overflow: hidden;
+    display: grid;
+    grid-template-columns: 50vw;
+    grid-template-rows: 50vh auto auto auto auto;
 
 }
 
-#menuItem1 {
+#imgFighter {
 
-    background-image: url(../resources/images/firstMenuItemImage.jpg);
-    background-position: 85%;
-    
+    display: block;
+    height: 50vh;
+
 }
-
-.menuItemImage {
-
-
-} 
-
