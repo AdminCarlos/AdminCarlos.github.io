@@ -1,15 +1,30 @@
 #initialPage {
 
     display: grid;
-    grid-template-columns: 50vw 50vw;
+    grid-template-columns: 25vw 15vw 20vw 15vw 25vw;
+    background-color: green;
+
+}
+
+.arrowImage {
+
+    display: block;
+    height: 20vh;
+    margin-top: 50%;
 
 }
 
 #containerInfoFighter {
 
-    display: grid;
-    grid-template-columns: 50vw;
-    grid-template-rows: 50vh auto auto auto auto;
+    display: block;
+    margin: 0 auto 0;
+    text-align: center;
+
+}
+
+#containerInfoFighter span {
+
+    color: black;
 
 }
 
@@ -17,5 +32,12 @@
 
     display: block;
     height: 50vh;
+
+}
+
+#containerBattle {
+
+    display: grid;
+    grid-template-columns: 50vw 50vw;
 
 }

@@ -21,31 +21,35 @@
 
 </head>
 
-<body data-enhance="false">
+<body data-enhance="false" onload="changeFighter('')">
 
     <div id="initialPage">
 
-        <div id="containerChooseFighter">
-
-            <span>Choose your fighter</span>
-            <select id="selectFighter" onchange="showSpriteAndValues()">
-
-                <option value="" selected disabled hidden>None</option>
-                <option value="ryu">Ryu</option>
-                <option value="ken">Ken</option>
-                <option value="chunli">Chun Li</option>
-
-            </select>
-
-        </div>
-
+        <div></div>
+        <div><img src="images/arrowleft.png" class="arrowImage" onclick="changeFighter('left')"></div>
         <div id="containerInfoFighter">
 
-            <img src="images/questionMark.png" id="imgFighter">
-            <span id="fighterNameSpan">Name: ???</span>
-            <span id="fighterHealthSpan">Health: ???</span>
-            <span id="fighterAttackSpan">Attack: ???</span>
-            <span id="fighterDefenseSpan">Defense: ???</span>
+            <img src="images/questionMark.png" id="imgFighter"></br>
+            
+            <span id="fighterNameSpan">Name: ???</span></br>
+            <span id="fighterHealthSpan">Health: ???</span></br>
+            <span id="fighterAttackSpan">Attack: ???</span></br>
+            <span id="fighterDefenseSpan">Defense: ???</span></br>
+            <span id="fighterSpeedSpan">Speed: ???</span></br>
+
+            <button>PLAY!</button>
+
+        </div>
+        <div><img src="images/arrowright.png" class="arrowImage" onclick="changeFighter('right')"></div>
+        <div></div>
+
+    </div>
+
+    <div id="battlePage">
+
+        <div id="containerBattle">
+
+
 
         </div>
 

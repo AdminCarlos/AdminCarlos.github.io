@@ -1,31 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <roster>
 
-  <fighter>
-    <internalname>ryu</internalname>
+  <Ryu>
     <name>Ryu</name>
     <health>100</health>
     <attack>100</attack>
     <defense>100</defense>
     <speed>100</speed>
-  </fighter>
+  </Ryu>
 
-  <fighter>
-    <internalname>ken</internalname>
+  <Ken> 
     <name>Ken</name>
     <health>100</health>
     <attack>120</attack>
     <defense>80</defense>
     <speed>100</speed>
-  </fighter>
+  </Ken>
 
-  <fighter>
-    <internalname>chunli</internalname>
-    <name>Chun Li</name>
+  <ChunLi>
+    <name>ChunLi</name>
     <health>100</health>
     <attack>110</attack>
     <defense>80</defense>
     <speed>110</speed>
-  </fighter>
+  </ChunLi>
+
+  <Garuda>
+    <name>Garuda</name>
+    <health>90</health>
+    <attack>120</attack>
+    <defense>80</defense>
+    <speed>110</speed>
+  </Garuda>
+
+  <Skullomania>
+    <name>Skullomania</name>
+    <health>90</health>
+    <attack>100</attack>
+    <defense>80</defense>
+    <speed>130</speed>
+  </Skullomania>
 
 </roster>
