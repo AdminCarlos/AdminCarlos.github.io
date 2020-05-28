@@ -74,7 +74,7 @@ function changeFighter(direction) {
 
       console.log(fighterName[fighterIndex]);
 
-      $("#imgFighter").attr("src", "images/" + fighterName[fighterIndex] + "portrait.jpg");
+      $("#imgFighter").attr("src", "images/" + fighterName[fighterIndex] + "Portrait.jpg");
 
       $("#fighterNameSpan").text("Name: " + $(response).find(fighterName[fighterIndex]).find("name").text());
       $("#fighterHealthSpan").text("Health: " + $(response).find(fighterName[fighterIndex]).find("health").text());
